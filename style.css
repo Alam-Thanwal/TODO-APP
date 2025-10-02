@@ -180,3 +180,26 @@ input {
   transition: 0s;
   transform: translate(0, 5%);
 }
+
+@media (max-width: 600px){
+  .maindiv{
+    margin: 50px auto;
+    border:  1px solid;
+  }
+  .box2{
+    display: block;
+  }
+  .column{
+    width: 100%;
+    margin-top: 25px;
+    box-sizing: border-box;
+  }
+  .userinput{
+    height: 100%;
+  }
+  .input{
+    width: 80%;
+
+  }
+
+}
